@@ -311,4 +311,32 @@ padding-bottom:50px;
  .solution-btn:hover{
 	 	  	opacity: 1;
  }
- 
+  /****************************************what-happening-at-comverse-section****************************/
+  .third-section{
+	  background: url('../source/img/news-and-events-bg.jpg') no-repeat;
+	  background-size:100% 100%;
+	  	height:400px; 
+  }
+ .whats-happening-title{
+	 
+	 text-align:center;
+	 color:#FFFFFF;
+	 padding:10px;
+	 
+ }
+ .occur-title{
+	 color:#FFFFFF;
+ }
+ .what-happening-item{
+	
+	display:inline-block;
+}
+.occur-item {
+	
+	display:inline-block;
+	width:300px;
+}
+.calender{
+	
+	background-color:white;
+}
