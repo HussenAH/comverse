@@ -100,14 +100,16 @@ header a{
 
 
 .input-nav-search{
-	padding:6px 15px 6px 30px;
-	width:120px;
-	height:8px;
-	margin:3px; 
-	background: url('../source/img/searchBtn.png') no-repeat right ; 	
+	/*padding:6px 15px 6px 30px;
+		margin:3px; */
+	width:140px;
+	height:15px;
+    padding:0;
+	margin:0;
+	background:url('../source/img/search_line_devider.png') no-repeat  110px, url('../source/img/searchBtn.png') no-repeat 120px ; 
+	
 	border-radius:8px; 
-	-moz-border-radius:8px; 
-	-webkit-border-radius:8px; 
+
 	
 }
 .comverse-logo{
@@ -321,7 +323,8 @@ padding-bottom:50px;
 	 
 	 text-align:center;
 	 color:#FFFFFF;
-	 padding:10px;
+	 padding-top:40px;
+	 padding-bottom:40px;
 	 
  }
  .occur-title{
@@ -334,9 +337,92 @@ padding-bottom:50px;
 .occur-item {
 	
 	display:inline-block;
-	width:300px;
+	width:280px;
+	height:200px;
 }
+
 .calender{
 	
-	background-color:white;
+	/*background-color:#FFFFFF;
+	opacity:0.5;*/
+	background-color: rgba(251, 251, 249, 0.5);
+	height:120px;
+	border-radius:4px;
+    box-shadow:1px 1px 1px 1px gray;
+	padding:10px;
+	
 }
+.calender ul{
+	width:80px;
+	height:120px;
+	background:  radial-gradient(ellipse at center, #59bedb 0%,#3399cc 100%);
+	color:white;
+	float:left;
+	margin-right:10px;
+	border-radius:3px;
+	box-shadow:1px 1px 1px 1px gray;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.calender p{
+	width:170px;	
+}
+.calender-item{
+	display:inline-block;
+}
+
+.month{
+	margin-top:10px;
+	padding-top:15px;
+	border-top:dashed white;
+	border-width: 1px;
+	font-size:15px;
+	font-weight:normal;
+}
+.day{
+		padding-top:20px;
+		font-size:40px;
+}
+.calender:hover{
+		background-color: rgba(251, 251, 249, 0.90);
+}
+.occur-icon{
+	float:left;
+	height:30px;
+	padding-top:15px;
+}
+.occur-icon a{
+	text-decoration:none;
+	color:#FFFFFF;
+
+}
+
+.event1{
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.occur-icon-news:hover img  {
+	content:url('../source/img/eventListIconNews_hover.png');
+	color:black;
+}
+.occur-icon-event:hover img {
+	content:url('../source/img/eventListIconEvents_hover.png') ;
+	color:black;
+}
+
+
+/*.occur-icon-news{
+	background: url('../source/img/eventListIconNews.png') left  no-repeat;
+}
+.occur-icon-news:hover{
+	color:black;
+	background: url('../source/img/eventListIconNews_hover.png') left no-repeat;
+}
+.occur-icon-event:hover img{
+	color:red;
+	content: url('../source/img/eventListIconEvents_hover.png');
+	
+}
+*/
