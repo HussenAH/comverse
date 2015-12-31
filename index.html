@@ -8,20 +8,12 @@
 <body>
 	<header clas="slide">
 	<nav class="nav page-content">
-	<div>
 	<!--<nav class="  main-nav">-->
-	    <img class="nav-item comverse-logo" src="./source/img/comverse-logo.png" alt="comverse logo">
-		<ul class='nav-item navigation-bar' > <!-- list of items-->
-			<li class="navigation-item"><a  href="">YOUR NEEDS </a></li>
-			<li class="navigation-item"><a  href="">OUR PORTFOLIO</a></li>
-			<li class="navigation-item"><a  href="">NEWS &amp; MEDIA</a></li>
-			<li class="navigation-item"><a  href="">ABOUT COMVERSE</a></li>
+	     <div class="left-nav nav-item"><img class="" src="./source/img/comverse-logo.png" alt="	     comverse logo"></div>
 
-		</ul>
-	       
-	    <div class="nav-item user-tools">
-	   		<div>
-	        <ul >
+	    <div class="nav-item right-nav">
+	   		<div class=" user-tools">
+	        <ul class="no-style">
 	        	<li>
 		        	<select class="lang-select">
 		        		<option value="english">EN</option>
@@ -29,7 +21,7 @@
 		        		<option value="hebrow">Hebrow</option>
 		        	</select>
 	        	</li>
-	        	<li><a href=""> Customer login</a></li>
+	        	<li><a class="no-style" href=""> Customer login</a></li>
 	        </ul>
 	        </div>
 			<form id="nav-search" method="get" action="http://www.google.com">
@@ -37,7 +29,15 @@
 			        <label for="input-nav-search"></label>
 			</form>
 		</div>
-		</div>
+				<div class="middle-nav nav-item ">
+			<ul class='nav-item navigation-bar no-style' > <!-- list of items-->
+				<li class="navigation-item"><a class="no-style" href="">YOUR NEEDS </a></li>
+				<li class="navigation-item"><a class="no-style" href="">OUR PORTFOLIO</a></li>
+				<li class="navigation-item"><a class="no-style" href="">NEWS &amp; MEDIA</a></li>
+				<li class="navigation-item"><a class="no-style" href="">ABOUT COMVERSE</a></li>
+
+			</ul>
+	    </div>
 	</nav>
 	</header>
 
@@ -53,11 +53,19 @@
 				Comvere Policity Studio<br>
 					<span>1st</span> Ever Marketign Oriented Policy Tool
 			</p>
-			<button class="learn-more-button"type="click"><a href="#">LEARN MORE</a></button>
+			<a href="#"><button class="learn-more-button"type="click">LEARN MORE</button></a>
 
 		</div>
+		<div>
+			<ul class="sqr-btn-list no-style">
+				<li class="btn-item"><a href="#"><button class="active-btn btn"type="click"></button></a></li>
+				<li class="btn-item"><a href="#"><button class="btn"type="click"></button></a></li>
+				<li class="btn-item"><a href="#"><button class="btn"type="click"></button></a></li>
+				<li class="btn-item"><a href="#"><button class="btn"type="click"></button></a></li>
+			</ul>
+		</div>
 
-		<div class="IT-complexity-bottom">
+		<div class="IT-complexity-boxs">
 				<ul class="comverse-properties-list no-style">
 				    <li class="color-item pink-item">
 					   <div class="color-content pink-content">
@@ -99,23 +107,23 @@
 	<ul class="no-style service-list">
 		<li class="service-item">
 			<div class="service-content">
-				<img class="service1-img" src="./source/img/solution_icon_smart-money.png">
+				<div class="s-icon"><img class="service1-img" src="./source/img/data-monetization.png"></div>
 				<div class="service-descrioption">
 					Data monetization
 				</div>
 			</div>
 		</li>
 		<li class="service-item">
-			<div>
-				<img img class="service2-img" src="./source/img/solution_icon_smart-money.png">				
+			<div class="service-content">
+				<div class="s-icon"><img img class="service2-img" src="./source/img/robot-icon.png"></div>				
 				<div class="service-descrioption">
 					Machine to machine (M2m)
 				</div>
 			</div>
 		</li>		
 		<li class="service-item">
-			<div>
-				<img img class="service3-img" src="./source/img/solution_icon_optimize-efficnt.png">
+			<div class="service-content">
+				<div class="s-icon"><img img class="service3-img" src="./source/img/flag-icon.png"></div>
 				
 				<div class="service-descrioption">
 					Over-the-top (OTT)
@@ -123,8 +131,8 @@
 			</div>
 		</li>
 		<li class="service-item">
-			<div>
-				<img img class="service4-img" src="./source/img/solution_icon_smart-money.png">
+			<div class="service-content">
+				<div class="s-icon"><img img class="service4-img" src="./source/img/cloud-icon.png"></div>
 				
 				<div class="service-descrioption">
 					Cloud computing
@@ -132,17 +140,16 @@
 			</div>
 		</li>
 		<li class="service-item">
-			<div>
-				<img img class="service5-img" src="./source/img/solution_icon_smart-money.png">
-				
+			<div class="service-content">
+				<div class="s-icon"><img img class="service5-img" src="./source/img/managed-services.png"></div>				
 				<div class="service-descrioption">
 					Manage services
 				</div>
 			</div>
 		</li>
 		<li class="service-item">
-			<div >
-				<img img class="service6-img" src="./source/img/solution_icon_smart-money.png">				
+			<div class="service-content">
+				<div class="s-icon"><img img class="service6-img" src="./source/img/social-icon.png"></div>			
 				<div class="service-descrioption">
 					Social Media
 				</div>
@@ -217,96 +224,111 @@
 </section>	
 <section class="stories-section">
 <div class="page-content">
-	SUCCESS STORIES
+	<h1 class="stories-title">SUCCESS STORIES</h1>
 	<ul class="stories-list">
+
+
 		<li class="story sergey-story">
 			<div class="sergey-story-content">
-				<div class="profile-photo"><img src="./source/img/JT-GM-face.png"></div>
-				<p class="no-style">
+				<div class="profile-photo"><img src="./source/img/person2.png"></div>
+				<p class="sergey-comment no-style">
 					We have very good and very warm relation with comvers. We always achievet..."
 				</p>
 				<footer class="sergey-footer">
-					<div>
+					<div class="sergey-name">
 						SERGY KOROTYCH
 					</div>		
 					<div>
 						Depty CTO, 3 Mob Ukraine
 					</div>	
-					<img src="">
+					<img class="sergey-footer-icon" src="./source/img/3mob_w108px_X_h95px.jpg">
 		
 				</footer>
 			</div>
 			<div class="sergey-logos">
 				<ul class="sergey-logos-list no-style">
-					<li>
-						<img class="logo1"src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
+					<li class="sergey-logo1 logo-item">
+						<img class=""src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
 					</li>
-					<li>
-						<img class="logo2" src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
+					<li class="sergey-logo2 logo-item">
+						<img class="" src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
 					</li>
-					<li>
-						<img class="logo3" src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
+					<li class="sergey-logo3 logo-item">
+						<img class="" src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
 					</li>
 				</ul>
 			</div>
 		</li>
+
+
+
+
 		<li class="story adale-story">
-			<div  class="story-content">
-				<div class="profile-photo"><img src="./source/img/CB-JP-face.png"></div>
-				 <p>
+			<div class="adale-logos">
+				<ul class="adale-logos-list no-style">
+					<li class="adale-logo1 logo-item">
+						<img class=""src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
+					</li>
+					<li class="adale-logo2 logo-item">
+						<img class="" src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
+					</li>
+					<li class="adale-logo3 logo-item">
+						<img class="" src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
+					</li>
+				</ul>
+			</div>
+			<div  class="story-content adale-story-content">
+			<div class="profile-photo"><img src="./source/img/person1.png"></div>
+				<p class="adale-comment no-style">
 					Comverse has demonstrated that they are partners , not just suppliers, because the undestand our needs, our situations; together we are ...
 				</p>
-				<footer>
-					<img src="">
-					<div>
+				<footer class="adale-footer">
+					<div class="adale-name">
 						ADALE KEHASSAN
 					</div>		
 					<div>
 						CIO of Multi-links
-					</div>			
+					</div>	
+					<img class="adale-footer-icon" src="./source/img/3mob_w108px_X_h95px.jpg">
 				</footer>
 			</div>
-			<div>
-				<ul>
-					<li>
-						<img src="">
-					</li>
-					<li>
-						<img src="">
-					</li>
-					<li>
-						<img src="">
-					</li>
-				</ul>
-			</div>
 		</li>
+
+
+
 		<li class="story ravi-story">
-			<div  class="story-content">
-				 <p>
+
+				<div class="ravi-story-content">
+				<p class="ravi-comment no-style">
 					Comverse has been able to fully deliver what we want and we have peers...
 				</p>
-				<footer>
-					<img src="">
-					<div>
+				<footer class="ravi-footer">
+					<div class="ravi-name">
 						RAVISHANKER
 					</div>		
 					<div>
 						Tata Sky CIO N.
-					</div>			
+					</div>	
+					<img class="ravi-footer-icon" src="./source/img/3mob_w108px_X_h95px.jpg">
+		
 				</footer>
 			</div>
-			<div>
-				<ul>
-					<li>
-						<img src="">
+			<div class="ravi-logos">
+				<ul class="ravi-logos-list no-style">
+					<li class="ravi-logo1 logo-item">
+						<img class=""src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
 					</li>
-					<li>
-						<img src="">
+					<li class="ravi-logo2 logo-item">
+						<img class="" src="./source/img/VIDEOCON_w108px_X_h95px.jpg">
 					</li>
 				</ul>
 			</div>
 		</li>
+
+
 	</ul>
+	<a href=""><button class="all-stories-btn">All 256 Succses Stories</button></a>
+
 </div>
 </section>
 <!--
