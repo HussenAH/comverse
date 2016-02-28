@@ -4,12 +4,17 @@
 	<meta charset="UTF-8">
 	<title>homepage|comverse</title>
 	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/mobile.css">
+
 </head>
 <body>
 	<header clas="slide">
 	<nav class="nav page-content">
+		 <div class="comverse-mobile-logo"><img src="./source/img/comverse-logo-medium.png" alt="comverse logo"></div>
+
+
 	<!--<nav class="  main-nav">-->
-	     <div class="left-nav nav-item"><img class="" src="./source/img/comverse-logo.png" alt="	     comverse logo"></div>
+	        <div class="left-nav nav-item"><img class="" src="./source/img/comverse-logo.png" alt="comverse logo"></div>
 
 	    <div class="nav-item right-nav">
 	   		<div class=" user-tools">
@@ -24,12 +29,24 @@
 	        	<li><a class="no-style" href=""> Customer login</a></li>
 	        </ul>
 	        </div>
+
+			<input type="checkbox" id="input-nav-search-mobile"  size="15" maxlength="120">
+			<label id="search-icon-mobile" for="input-nav-search-mobile"><img src="./source/img/searchBtnMobile.png"></label>
+
+
 			<form id="nav-search" method="get" action="http://www.google.com">
 			        <input type="text" class="input-nav-search"  size="15" maxlength="120">
 			        <label for="input-nav-search"></label>
 			</form>
+
+
+
 		</div>
-				<div class="middle-nav nav-item ">
+			<input type="checkbox" id="hamburger-menu"  size="15" maxlength="120">
+			<label id="hamburger-icon" for="hamburger-menu"><img src="./source/img/hamburger-icon.png"></label>
+
+			<div class="middle-nav nav-item ">
+
 			<ul class='nav-item navigation-bar no-style' > <!-- list of items-->
 				<li class="navigation-item"><a class="no-style" href="">YOUR NEEDS </a></li>
 				<li class="navigation-item"><a class="no-style" href="">OUR PORTFOLIO</a></li>
@@ -53,15 +70,14 @@
 				Comvere Policity Studio<br>
 					<span>1st</span> Ever Marketign Oriented Policy Tool
 			</p>
-			<a href="#"><button class="learn-more-button"type="click">LEARN MORE</button></a>
-
 		</div>
+		<a href="#"><button class="learn-more-button"type="click">LEARN MORE</button></a>
 		<div>
 			<ul class="sqr-btn-list no-style">
-				<li class="btn-item"><a href="#"><button class="active-btn btn"type="click"></button></a></li>
-				<li class="btn-item"><a href="#"><button class="btn"type="click"></button></a></li>
-				<li class="btn-item"><a href="#"><button class="btn"type="click"></button></a></li>
-				<li class="btn-item"><a href="#"><button class="btn"type="click"></button></a></li>
+				<li class="btn-item"><a href="#"><button class="active-btn btn"type="click"><div class="num-mobile">1</div></button></a></li>
+				<li class="btn-item"><a href="#"><button class="btn"type="click"><div class="num-mobile">2</div></button></a></li>
+				<li class="btn-item"><a href="#"><button class="btn"type="click"><div class="num-mobile">3</div></button></a></li>
+				<li class="btn-item"><a href="#"><button class="btn"type="click"><div class="num-mobile">4</div></button></a></li>
 			</ul>
 		</div>
 
@@ -138,10 +154,11 @@
 				</div>
 		</li>
 		<li class="service-item">
-				<div class="s-icon"><img img class="service6-img" src="./source/img/social-icon.png"></div>			
-				<div class="service-descrioption">
+				<div class="s-icon "><img img class="service6-img" src="./source/img/social-icon.png"></div>			
+				<div class="service-descrioption s-d">
 					Social Media
 				</div>
+
 		</li>
 
 	</ul>
@@ -180,7 +197,7 @@
 	</li>
 	<li class="what-happening-item events">
 		<h2 class=" event-title occur-title">EVENTS</h2>
-		<ul class="nevents-list no-style">
+		<ul class="events-list no-style">
 			<li class="occur-item event1">
 					<div class=" calender events-left-calender">
 						<ul class="calender-item no-style">
@@ -259,7 +276,7 @@
 			<div class="adale-logos">
 				<ul class="adale-logos-list no-style">
 					<li class="adale-logo1 logo-item">
-						<img class=""src="./source/img/mtc2.png">
+						<img class=""src="./source/img/MTC2.png">
 					</li>
 					<li class="adale-logo2 logo-item">
 						<img class="" src="./source/img/cable-wireless.png">
@@ -320,8 +337,13 @@
 
 	</ul>
 	<a href=""><button class="all-stories-btn">All 256 Succses Stories</button></a>
+	<a href=""><img class="up-botton" src="./source/img/back_top_tab.png"></a>
+
 </div>
 </section>	
+
+
+
 <footer class="main-footer">
 <div class="page-content">
 	<div class="footer-item references">
@@ -384,15 +406,40 @@
 				<input class="email-submit" type="submit" value="sign up">
 			</form>
 			<ul class="social-media-logos no-style">
-				<li class="SM-logo"><img src="./source/img/socialMenuIcon-youtube.png"></li>
-				<li class="SM-logo"><img src="./source/img/socialMenuIcon-twitter.png"></li>				
-				<li class="SM-logo"><img src="./source/img/socialMenuIcon-linkdin.png"></li>
+				<li class="SM-logo youtube"><img src="./source/img/socialMenuIcon-youtube.png"></li>
+				<li class="SM-logo twitter"><img src="./source/img/socialMenuIcon-twitter.png"></li>				
+				<li class="SM-logo linkedin"><img src="./source/img/socialMenuIcon-linkdin.png"></li>
 			</ul>
 		</div>
 	</div>
+
 	<div class="copyrights">copyrights &copy;2012 Comverse,Inc | privacy Policy</div>
 
 </div>
+<div class="mobile-footer">
+<ul class="mobile-footer-list no-style">
+	<li class="mobile-footer-item mf-item1"><div>CONTACT US</div></li>
+	<li class="mobile-footer-item mf-item2 "><div>SUBSCRIBE TO COMVERSE NEWS</div></li>
+	<li class="visit-us mobile-footer-item mf-item3">
+		<div class="visit-item">VISIT US ON:</div>
+		<ul class=" visit-item social-media-logos no-style">
+		    <li class="SM-logo linkedin"><img src="./source/img/socialMenuIcon-linkdin.png"></li>
+			<li class="SM-logo youtube"><img src="./source/img/socialMenuIcon-youtube.png"></li>
+			<li class="SM-logo twitter"><img src="./source/img/socialMenuIcon-twitter.png"></li>				
+		</ul>
+	</li>
+	<li class="change-lang mobile-footer-item mf-item4">
+		<div class="lang-item">CHANGE LANGUAGE:</div>
+		<select class=" lang-item lang-select-mobile">
+			<option value="english">English</option>
+			<option value="arabic">Arabic</option>
+			<option value="hebrow">Hebrow</option>
+		</select>
+	</li>
+</ul>
+</div>
 </footer>	
+<div class="mobile-copyrights">copyrights &copy;2012 Comverse,Inc | privacy Policy |Sitemap</div>
+
 </body>
 </html>
